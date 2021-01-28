@@ -7,8 +7,35 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+      <header >
+        <img class="logo_ejercito" src="img/logo_ejercito.jpg"/>
+        <h1 id= "title">Codificador - Militar</h1>
+      </header> 
+    
+      <main>
+      <p class="presentacion" id="present">CJFOWFOJEP<br/><br/> BM TJTUFNB EF NFOTBKFSJB TFDSFUB <br/><br/>EF MBT GVFSABT BSNBEBT EFM QFSV</p>
+      <section class="caja_desplazamiento">
+      <p class="desplazamiento">Ingrese código secreto de desplazamiento:</p> 
+      <input placeholder="Inserte número" id="input_offset"/>
+      <br>
+      </section>
+      <p class="mensaje">Escribir mensaje:</p>
+      <article class="area_cod">
+        <textarea name = "text_input"  rows="15" cols="40" placeholder="Escribe el mensaje que quieres procesar" id= "text_input"></textarea>
+        <section class="buttons">
+        <button type="button" id="btn_code">Codificar</button> <br><br>
+        <button type="button" id="btn_decode">Decodificar</button> <br><br>
+        <button type="button" id="borrar">Borrar</button> <br><br>
+        </section>
+        <textarea disabled name = "text_output"  rows="15" cols="40" placeholder="Mensaje procesado" id= "text_output"></textarea><br>
+      </article>
+      <section class="btn_enviar">
+      <button type="button" id="enviar">Enviar</button>
+      </section>
+      </main>
+    </div> 
+    <footer> © Derechos reservados Fanny Raquel Pastor Izquierdo 2021-2022</footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
+

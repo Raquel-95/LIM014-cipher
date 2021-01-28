@@ -1,0 +1,123 @@
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+    /*width: 60%;*/
+    font-family: Helvetica; /* fuente*/
+    color:whitesmoke;
+    font-weight: bold; /*negrita*/
+    background-image: url("img/background_militar.jpg");
+    background-size: 200px 200px;
+}
+
+.logo_ejercito {
+    width: 150px;
+    height: 150px;
+    display:block;
+    margin:auto;
+}
+
+#title {
+    background-color: azure;
+    height: 60px;
+    color: green;
+    font-family: counter-strike;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px; 
+}
+
+.buttons
+{
+    width: 90px;
+    height: 90px;
+    margin-top: -70px;
+    margin-left: 10px;
+    cursor: pointer;
+    justify-content: space-around;
+}
+
+#btn_code {
+    background-color: rgb(28, 134, 28);
+    color: white;
+}
+
+#btn_decode {
+    background-color: rgb(28, 134, 28);
+    color: white;
+}
+
+#borrar {
+    background-color: white;
+}
+
+.buttons button{
+    color: black;
+    width: 80PX;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px 20px;
+}
+
+.area_cod {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.btn_enviar{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+footer{
+    font-size: 12px;
+}
+
+p.presentacion {
+    background-color: rgb(158, 115, 58);
+    height: 150px;
+    color: whitesmoke;
+    font-family: counter-strike;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px; 
+    text-align: center;
+}
+
+.caja_desplazamiento {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: azure;
+    color: black;
+    /*display: inline-block;*/
+}
+
+p.mensaje {
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: azure;
+    color: black;
+    display: inline-block;
+}
+
+#text_input {
+    background-color: white;
+    border:ridge;
+    border-width: 8px;
+}
+
+#text_output {
+    background-color: black;
+    border:ridge;
+    border-width: 8px;
+    color: white;
+}
+
+#text_output::placeholder {
+    color: whitesmoke;
+}
