@@ -3,7 +3,7 @@
 ### Mensajería Secreta
 
 #### **Introducción a la aplicación web:**
-La aplicación web "CODIFICDOR - MILITAR" es una herramienta para militares del ejercito que necesiten codificar/decodificar mensajes importantes de acceso restringido.
+La aplicación web "CODIFICADOR - MILITAR" es una herramienta para militares del ejercito que necesiten codificar/decodificar mensajes importantes de acceso restringido.
 Esta aplicación web servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (offset).
 
 #### **Funcionalidad:**
