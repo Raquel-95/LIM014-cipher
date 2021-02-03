@@ -1,7 +1,6 @@
 body{
     margin-left: 25%;
     margin-right: 25%;
-    /*width: 60%;*/
     font-family: Helvetica; /* fuente*/
     color:whitesmoke;
     font-weight: bold; /*negrita*/
@@ -24,7 +23,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px; 
+    font-size:50px;
 }
 
 .buttons
@@ -37,12 +36,7 @@ body{
     justify-content: space-around;
 }
 
-#btn_code {
-    background-color: rgb(28, 134, 28);
-    color: white;
-}
-
-#btn_decode {
+#btn_encode, #btn_decode {
     background-color: rgb(28, 134, 28);
     color: white;
 }
@@ -60,16 +54,10 @@ body{
 }
 
 .area_cod {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10px;
-}
-
-.btn_enviar{
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    padding-bottom: 15px;
 }
 
 footer{
@@ -94,7 +82,6 @@ p.presentacion {
     justify-content: space-around;
     background-color: azure;
     color: black;
-    /*display: inline-block;*/
 }
 
 p.mensaje {
@@ -118,7 +105,6 @@ p.mensaje {
     color: white;
 }
 
-#text_output::placeholder {
+#text_output::placeholder { /*combinación de selector ID y pseudoelemento*/
     color: whitesmoke;
 }
-
